@@ -1,11 +1,9 @@
 # striptags [![Build Status](https://travis-ci.org/ericnorris/striptags.svg)](https://travis-ci.org/ericnorris/striptags)
+
+
 An implementation of PHP's [strip_tags](http://www.php.net/manual/en/function.strip-tags.php) in Node.js.
 
-**Note:** `v3+` targets ES6, and is therefore incompatible with the master branch of `uglifyjs`. You can either:
-- use `babili`, which supports ES6
-- use the `harmony` branch of `uglifyjs`
-- stick with the [2.x.x](https://github.com/ericnorris/striptags/tree/v2.x.x) branch
-
+**Note:** This is a fork from version 3.1.1 of [ericnorris/striptags](https://github.com/ericnorris/striptags) with the addition of a dist directory to maintain ES2015 compatibility. No other changes were made.
 ## Features
 - Fast
 - Zero dependencies
@@ -51,9 +49,9 @@ lorem ipsum <strong>dolor</strong> sit amet'
 ```
 
 ```
-lorem ipsum 
+lorem ipsum
 dolor
- 
+
 sit
  amet
 ```
